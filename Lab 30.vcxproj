@@ -129,6 +129,13 @@
   <ItemGroup>
     <ClInclude Include="outMeanSTD.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="outMeanSTD.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="outMeanSTD.dat" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
